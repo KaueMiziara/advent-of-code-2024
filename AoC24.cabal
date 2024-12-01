@@ -7,9 +7,9 @@ cabal-version: 2.2
 name:           AoC24
 version:        0.1.0.0
 description:    Please see the README on GitHub at <https://github.com/githubuser/AoC24#readme>
-homepage:       https://github.com/githubuser/AoC24#readme
-bug-reports:    https://github.com/githubuser/AoC24/issues
-author:         Kaue Miziara 
+homepage:       https://github.com/KaueMiziara/advent-of-code-2024#readme
+bug-reports:    https://github.com/KaueMiziara/advent-of-code-2024/issues
+author:         Kaue Miziara
 maintainer:     kauemiziara@gmail.com
 copyright:      2024 Kaue Miziara
 license:        BSD-3-Clause
@@ -21,11 +21,12 @@ extra-source-files:
 
 source-repository head
   type: git
-  location: https://github.com/githubuser/AoC24
+  location: https://github.com/KaueMiziara/advent-of-code-2024
 
 library
   exposed-modules:
-      Lib
+      Day01
+      Utils
   other-modules:
       Paths_AoC24
   autogen-modules:
